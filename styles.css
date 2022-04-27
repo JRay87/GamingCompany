@@ -1,0 +1,39 @@
+styles.css
+
+head{
+    float: bottom;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    border: 5px solid orange;
+    padding: 10px;
+    background: blue;
+    color: white;
+
+}
+h2{
+    border:5px solid blue;
+    padding: 10px;
+ }
+
+header{
+    align-content: center;
+}
+
+nav ul{
+    margin-left: 300px
+}
+
+nav li{
+    display: inline-block;
+    color: blue
+    margin-left: 10px;
+}
+nav li a{
+    color: orange;
+    text-decoration: none;
+}
