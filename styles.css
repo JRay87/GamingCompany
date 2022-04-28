@@ -1,8 +1,5 @@
-head{
-    float: bottom;
-}
-
 body{
+    background-color: rgb(35, 35, 44);
     margin: 0px;
     padding: 0px;
 }
@@ -15,18 +12,9 @@ h1{
 
 }
 
-.lower-section img {
-    display: inline-block;
-    float: left;
-}
-
-h2{
-    border:5px solid blue;
-    padding: 10px;
- }
-
 header{
-    align-content: center;
+    align-self: center;
+    font-size:x-large;
 }
 
 nav ul{
@@ -44,6 +32,9 @@ nav li a{
     text-decoration: none;
 }
 
+.lower-section img {
+    display:inline
+}
 #person-name{
     font-size:large;
     color: red;
