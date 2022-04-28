@@ -2,6 +2,7 @@ body{
     background-color: rgb(35, 35, 44);
     margin: 0px;
     padding: 0px;
+    color:antiquewhite
 }
 
 h1{
@@ -19,9 +20,10 @@ header{
 
 nav ul{
     margin-left: 300px;
+    display:inline;
 }
 
-nav li{
+nav li {
     display: inline-block;
     color: blue;
     margin-left: 10px;
@@ -32,9 +34,31 @@ nav li a{
     text-decoration: none;
 }
 
-.lower-section img {
+.lower-section {
+    display:inline-block
+}
+
+.lower-section p{
+    width: 150px;
+}
+
+.lower-section>* {
+    display:inline-block;
+    
+}
+
+.lower-section li {
+    margin: 0px;
+    padding: 0px;
     display:inline
 }
+
+.lower-section img {
+    display: inline-block;
+}
+
+
+
 #person-name{
     font-size:large;
     color: red;
