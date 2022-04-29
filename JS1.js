@@ -39,7 +39,7 @@ function feelings() {
         prompt ('Im happy to hear that. Maybe our important information can keep the good times going.');
     } else {
         prompt ('Your response did not sound happy. Would you like to try that again?');
-        let response2 = "Yes || No".toLowerCase
+        let response2 = "Yes || No"
         if (response2 ==="Yes") {
             message ("Management has boosted morale yet again, great success!");
     } else {
