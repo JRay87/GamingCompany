@@ -13,6 +13,9 @@ h1{
 
 }
 
+div{
+    background: grey;
+}
 header{
     align-self: center;
     font-size:x-large;
