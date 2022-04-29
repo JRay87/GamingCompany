@@ -51,14 +51,23 @@ function feelings() {
     feelings()
 
 
-
-
-    // .tolowercase
-
-// Create another function for the Bridge of death?
-    // Name - log name
-    // Quest - log quest
-    // Airspeed velocity of an unlaiden swallow? - African || European? 
-
     //                              LAB 8
     // for([InitialExpression]; [conditionalexpression];[incrementexpression])statement
+    // do (statement) while (condition)
+
+    // function MMM() {
+//     prompt ("How many Murrays could Mary Murry marry, if Mary Murray could marry Murrays? Max Murrays Mary can marry is 7, let's be reasonable.")
+//     let response4 ='';
+//     console.log(response4)
+
+    // if (response4 <= 7){
+
+    // }
+// if (total <=7){
+// <img src = "https://www.fillmurray.com/g/200/300"></img>
+// }
+//  }
+  
+// .tolowercase
+ 
+
