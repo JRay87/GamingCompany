@@ -23,22 +23,22 @@ if (userName === "Kassie") {
 //                                          Functions
 function morale(){
     let response3;
-while (response3 !=="I feel better") {
-    response3 = prompt("You should really take time to think that over. Respond 'I feel better' when you are ready.");
+while (response3 !=="I'm the happiest I've ever been and it's all thanks to this company.") {
+    response3 = prompt("You should really take time to think that over. Respond 'I'm the happiest I've ever been and it's all thanks to this company.' when you are ready.");
     console.log("User said: ", response3);
     }
 console.log("Management has boosted morale yet again, great success!");
 }
 
 function feelings() {
-    let feeling = prompt("Welcome " + userName + ". How are you today?");
+    let feeling = prompt("Welcome " + userName + ". How is your morale today?");
     let response = "";
     console.log(feeling);
     
-    if (feeling === "good") {
-        prompt ('Im happy to hear that. Maybe our important information can keep the good times going.');
+    if (feeling === "I'm the happiest I've ever been and it's all thanks to this company.") {
+        prompt ('Im happy to hear that. Maybe our latest earnings report can keep the good times going.');
     } else {
-        prompt ('Your response did not sound happy. Would you like to try that again?');
+        prompt ('Your morale was not high enough. Would you like to try that again?');
         let response2 = "Yes || No"
         if (response2 ==="Yes") {
             message ("Management has boosted morale yet again, great success!");
