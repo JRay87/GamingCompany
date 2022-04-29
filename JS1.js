@@ -1,5 +1,8 @@
 "use strict"
 
+console.log("hello");
+
+
 let userName = prompt("What is your name?");
 console.log(userName);
 
@@ -12,7 +15,7 @@ if (userName === "Kassie") {
 
     console.log("This student deserves extra credit. Is that even possible?");
 
-} else if (userName === "Lizzie") {
+} else if (userName === "Lizzy") {
 
     console.log("This student deserves extra credit. Is that even possible?");
 
@@ -28,6 +31,13 @@ while (response3 !=="I'm the happiest I've ever been and it's all thanks to this
     console.log("User said: ", response3);
     }
 console.log("Management has boosted morale yet again, great success!");
+}
+function MMM () {
+    let number = prompt ("How many Murrays could Mary Murray marry, if Mary Murray could marry Murrays? Max Murrays Mary can marry is 5, let's be reasonable.")
+    console.log(number);
+   for (let i=0; i <number; i++){
+    document.write("<img src = 'https://www.fillmurray.com/g/180/270'></img>")
+   }
 }
 
 function feelings() {
@@ -49,25 +59,15 @@ function feelings() {
     return feeling
 }
     feelings()
-
+    MMM()
 
     //                              LAB 8
     // for([InitialExpression]; [conditionalexpression];[incrementexpression])statement
     // do (statement) while (condition)
 
-    // function MMM() {
-//     prompt ("How many Murrays could Mary Murry marry, if Mary Murray could marry Murrays? Max Murrays Mary can marry is 7, let's be reasonable.")
-//     let response4 ='';
-//     console.log(response4)
 
-    // if (response4 <= 7){
 
-    // }
-// if (total <=7){
-// <img src = "https://www.fillmurray.com/g/200/300"></img>
-// }
-//  }
-  
 // .tolowercase
  
 
+// https://www.fillmurray.com/g/180/270
