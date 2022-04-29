@@ -41,11 +41,11 @@ function MMM () {
 }
 
 function feelings() {
-    let feeling = prompt("Welcome " + userName + ". How is your morale today?");
+    let feeling = prompt("Welcome " + userName + ". How is your morale today? 'Good' or 'Bad'?");
     let response = "";
     console.log(feeling);
     
-    if (feeling === "I'm the happiest I've ever been and it's all thanks to this company.") {
+    if (feeling === "Good") {
         prompt ('Im happy to hear that. Maybe our latest earnings report can keep the good times going.');
     } else {
         prompt ('Your morale was not high enough. Would you like to try that again?');
