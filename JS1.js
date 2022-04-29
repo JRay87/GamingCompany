@@ -23,8 +23,8 @@ if (userName === "Kassie") {
 //                                          Functions
 function morale(){
     let response3;
-while (response3 !=="I have reconsidered") {
-    response3 = prompt("You should really take time to think that over. Respond 'I have reconsidered' when you are ready.");
+while (response3 !=="I feel better") {
+    response3 = prompt("You should really take time to think that over. Respond 'I feel better' when you are ready.");
     console.log("User said: ", response3);
     }
 console.log("Management has boosted morale yet again, great success!");
@@ -59,6 +59,6 @@ function feelings() {
     // Name - log name
     // Quest - log quest
     // Airspeed velocity of an unlaiden swallow? - African || European? 
-    
+
     //                              LAB 8
     // for([InitialExpression]; [conditionalexpression];[incrementexpression])statement
